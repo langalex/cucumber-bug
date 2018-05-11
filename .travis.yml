@@ -1,0 +1,6 @@
+sudo: false
+dist: trusty
+language: ruby
+cache: bundler
+rvm: 2.3.6
+script: bundle exec cucumber features/test.feature
